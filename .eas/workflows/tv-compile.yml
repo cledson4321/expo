@@ -10,7 +10,6 @@ on:
 
 jobs:
   check_paths:
-    if: ${{ EAS_PROJECT_ID == '495165b4-05b7-4812-91fe-21d838ac7391' }}
     outputs:
       result: ${{ steps.changed_paths.outputs.result }}
     runs_on: linux-medium
